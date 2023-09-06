@@ -10,6 +10,7 @@
     "dev": "ts-node-dev --respawn --clear ./src/index.ts",
     "lint": "eslint --ext .ts . --fix --ignore-path .eslintignore",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "clean": "yarn prettier && yarn lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
