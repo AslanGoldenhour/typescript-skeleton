@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A model Typescript project designed to be forked by anyone.",
   "main": "./src/index.js",
+  "private": true,
   "scripts": {
     "setup": "yarn install && yarn build",
     "build": "npx tsc",
@@ -22,6 +23,7 @@
   "author": "Aslan Goldenhour",
   "license": "Unlicense",
   "devDependencies": {
+    "@types/node": "^20.5.9",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.6.0",
     "dotenv": "^16.3.1",
@@ -30,7 +32,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
-    "husky": "^8.0.3",
+    "husky": "4",
     "prettier": "^3.0.3",
     "ts-node-dev": "^2.0.0",
     "typescript": "*"
